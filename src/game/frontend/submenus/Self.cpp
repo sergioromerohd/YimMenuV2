@@ -4,19 +4,20 @@
 #include "game/frontend/items/Items.hpp"
 #include "Self/OutfitEditor.hpp"
 #include "Self/Weapons.hpp"
+#include "core/localization/Translator.hpp"
 
 namespace YimMenu::Submenus
 {
 	Self::Self() :
 		#define ICON_FA_USER "\xef\x80\x87"
-	    Submenu::Submenu("Self", ICON_FA_USER)
+	    Submenu::Submenu(TR("Self"), ICON_FA_USER)
 	{
-		auto main = std::make_shared<Category>("Main");
-		auto globalsGroup = std::make_shared<Group>("Globals");
-		auto movementGroup = std::make_shared<Group>("Movement");
-		auto toolsGroup = std::make_shared<Group>("Tools", 2);
-		auto specialAbilityGroup = std::make_shared<Group>("Special Ability");
-		auto wantedGroup = std::make_shared<Group>("Wanted");
+		auto main = std::make_shared<Category>(TR("Main"));
+		auto globalsGroup = std::make_shared<Group>(TR("Globals"));
+		auto movementGroup = std::make_shared<Group>(TR("Movement"));
+		auto toolsGroup = std::make_shared<Group>(TR("Tools"), 2);
+		auto specialAbilityGroup = std::make_shared<Group>(TR("Special Ability"));
+		auto wantedGroup = std::make_shared<Group>(TR("Wanted"));
 
 		globalsGroup->AddItem(std::make_shared<BoolCommandItem>("godmode"_J));
 		globalsGroup->AddItem(std::make_shared<BoolCommandItem>("invis"_J));

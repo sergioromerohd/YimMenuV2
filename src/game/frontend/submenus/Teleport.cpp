@@ -5,6 +5,7 @@
 #include "game/backend/SavedLocations.hpp"
 #include "game/backend/Self.hpp"
 #include "game/frontend/items/Items.hpp"
+#include "core/localization/Translator.hpp"
 
 namespace YimMenu::Submenus
 {
@@ -167,10 +168,10 @@ namespace YimMenu::Submenus
 
 	Teleport::Teleport() :
 		#define ICON_FA_TELEPORT "\xef\x8f\x85"
-	    Submenu::Submenu("Teleport", ICON_FA_TELEPORT)
+	    Submenu::Submenu(TR("Teleport"), ICON_FA_TELEPORT)
 	{
-		auto main = std::make_shared<Category>("Main");
-		auto miscGroup = std::make_shared<Group>("Misc");
+		auto main = std::make_shared<Category>(TR("Main"));
+		auto miscGroup = std::make_shared<Group>(TR("Misc"));
 
 		miscGroup->AddItem(std::make_shared<ConditionalItem>("autotptowaypoint"_J, std::make_shared<CommandItem>("tptowaypoint"_J), true));
 		miscGroup->AddItem(std::make_shared<BoolCommandItem>("autotptowaypoint"_J));

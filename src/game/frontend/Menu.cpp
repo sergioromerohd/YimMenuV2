@@ -21,11 +21,13 @@
 #include "core/memory/ModuleMgr.hpp"
 #include "Onboarding.hpp"
 #include "core/frontend/manager/styles/Themes.hpp"
+#include "core/localization/Translator.hpp"
 
 namespace YimMenu
 {
 	void Menu::Init()
 	{
+		Translator::Initialize();
 		SetupStyle();
 		// Arguably the only place this file should be edited at for more menus
 		UIManager::AddSubmenu(std::make_shared<Submenus::Self>());
