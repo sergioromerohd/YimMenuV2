@@ -1,0 +1,100 @@
+{
+  "language": "Español",
+  "code": "es_ES",
+  
+  "_comment": "Este es un archivo de ejemplo para traducción al español",
+  "_comment2": "Para implementarlo completamente se necesita crear un sistema de traducción en el código",
+  
+  "ui": {
+    "menu_categories": {
+      "self": "Yo",
+      "teleport": "Teletransporte",
+      "vehicle": "Vehículo",
+      "weapon": "Armas",
+      "network": "Red",
+      "world": "Mundo",
+      "misc": "Varios",
+      "settings": "Configuración",
+      "players": "Jugadores"
+    },
+    
+    "common": {
+      "enable": "Activar",
+      "disable": "Desactivar",
+      "enabled": "Activado",
+      "disabled": "Desactivado",
+      "apply": "Aplicar",
+      "cancel": "Cancelar",
+      "ok": "OK",
+      "save": "Guardar",
+      "load": "Cargar",
+      "delete": "Eliminar",
+      "reset": "Restablecer",
+      "back": "Atrás",
+      "next": "Siguiente",
+      "previous": "Anterior",
+      "yes": "Sí",
+      "no": "No",
+      "all": "Todos",
+      "none": "Ninguno",
+      "search": "Buscar",
+      "filter": "Filtrar"
+    },
+    
+    "settings": {
+      "gui_settings": "Configuración de Interfaz",
+      "customize": "Personalizar",
+      "colors": "Colores",
+      "rounding": "Redondeo",
+      "layout": "Diseño",
+      "border": "Bordes",
+      "global": "Global",
+      "fonts": "Fuentes",
+      "theme": "Tema",
+      "language": "Idioma"
+    },
+    
+    "vehicle": {
+      "spawn": "Generar",
+      "customize": "Personalizar",
+      "paint": "Pintura",
+      "performance": "Rendimiento",
+      "godmode": "Modo Dios",
+      "repair": "Reparar",
+      "clean": "Limpiar",
+      "flip": "Voltear"
+    },
+    
+    "teleport": {
+      "waypoint": "Punto de Ruta",
+      "objective": "Objetivo",
+      "custom_location": "Ubicación Personalizada",
+      "save_location": "Guardar Ubicación",
+      "teleport_to": "Teletransportar a"
+    },
+    
+    "weapon": {
+      "spawn_weapon": "Generar Arma",
+      "infinite_ammo": "Munición Infinita",
+      "no_reload": "Sin Recarga",
+      "rapid_fire": "Fuego Rápido",
+      "damage_multiplier": "Multiplicador de Daño",
+      "remove_all": "Eliminar Todas"
+    },
+    
+    "network": {
+      "session": "Sesión",
+      "players": "Jugadores",
+      "chat": "Chat",
+      "spoofing": "Suplantación",
+      "protections": "Protecciones"
+    }
+  },
+  
+  "notifications": {
+    "success": "Éxito",
+    "error": "Error",
+    "warning": "Advertencia",
+    "info": "Información"
+  }
+}
