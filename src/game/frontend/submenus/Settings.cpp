@@ -8,6 +8,7 @@
 #include "game/frontend/items/DrawHotkey.hpp"
 #include "game/frontend/submenus/Settings/LuaScripts.hpp"
 #include "game/frontend/submenus/Settings/GUISettings.hpp"
+#include "core/localization/Translator.hpp"
 
 namespace YimMenu::Submenus
 {
@@ -44,7 +45,7 @@ namespace YimMenu::Submenus
 
 	Settings::Settings() :
 	#define ICON_FA_GEARS "\xef\x80\x93"
-	    Submenu::Submenu("Settings", ICON_FA_GEARS)
+	    Submenu::Submenu(TR("Settings"), ICON_FA_GEARS)
 	{
 		auto hotkeys = std::make_shared<Category>("Hotkeys");
 		auto gui = std::make_shared<Category>("GUI");

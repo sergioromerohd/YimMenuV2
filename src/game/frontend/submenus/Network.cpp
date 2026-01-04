@@ -5,12 +5,13 @@
 #include "game/frontend/submenus/Network/SavedPlayers.hpp"
 #include "game/frontend/submenus/Network/RandomEvents.hpp"
 #include "game/gta/Network.hpp"
+#include "core/localization/Translator.hpp"
 
 namespace YimMenu::Submenus
 {
 	Network::Network() :
 		#define ICON_FA_ROUTE "\xef\x9b\xbf"
-	    Submenu::Submenu("Network", ICON_FA_ROUTE)
+	    Submenu::Submenu(TR("Network"), ICON_FA_ROUTE)
 	{
 		// TODO: this needs a rework
 		auto session = std::make_shared<Category>("Session");

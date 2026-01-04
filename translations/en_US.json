@@ -1,0 +1,99 @@
+{
+  "language": "English",
+  "code": "en_US",
+  
+  "_comment": "This is the default English translation file for reference",
+  
+  "ui": {
+    "menu_categories": {
+      "self": "Self",
+      "teleport": "Teleport",
+      "vehicle": "Vehicle",
+      "weapon": "Weapon",
+      "network": "Network",
+      "world": "World",
+      "misc": "Misc",
+      "settings": "Settings",
+      "players": "Players"
+    },
+    
+    "common": {
+      "enable": "Enable",
+      "disable": "Disable",
+      "enabled": "Enabled",
+      "disabled": "Disabled",
+      "apply": "Apply",
+      "cancel": "Cancel",
+      "ok": "OK",
+      "save": "Save",
+      "load": "Load",
+      "delete": "Delete",
+      "reset": "Reset",
+      "back": "Back",
+      "next": "Next",
+      "previous": "Previous",
+      "yes": "Yes",
+      "no": "No",
+      "all": "All",
+      "none": "None",
+      "search": "Search",
+      "filter": "Filter"
+    },
+    
+    "settings": {
+      "gui_settings": "GUI Settings",
+      "customize": "Customize",
+      "colors": "Colors",
+      "rounding": "Rounding",
+      "layout": "Layout",
+      "border": "Border",
+      "global": "Global",
+      "fonts": "Fonts",
+      "theme": "Theme",
+      "language": "Language"
+    },
+    
+    "vehicle": {
+      "spawn": "Spawn",
+      "customize": "Customize",
+      "paint": "Paint",
+      "performance": "Performance",
+      "godmode": "God Mode",
+      "repair": "Repair",
+      "clean": "Clean",
+      "flip": "Flip"
+    },
+    
+    "teleport": {
+      "waypoint": "Waypoint",
+      "objective": "Objective",
+      "custom_location": "Custom Location",
+      "save_location": "Save Location",
+      "teleport_to": "Teleport To"
+    },
+    
+    "weapon": {
+      "spawn_weapon": "Spawn Weapon",
+      "infinite_ammo": "Infinite Ammo",
+      "no_reload": "No Reload",
+      "rapid_fire": "Rapid Fire",
+      "damage_multiplier": "Damage Multiplier",
+      "remove_all": "Remove All"
+    },
+    
+    "network": {
+      "session": "Session",
+      "players": "Players",
+      "chat": "Chat",
+      "spoofing": "Spoofing",
+      "protections": "Protections"
+    }
+  },
+  
+  "notifications": {
+    "success": "Success",
+    "error": "Error",
+    "warning": "Warning",
+    "info": "Info"
+  }
+}

@@ -4,14 +4,15 @@
 #include "Recovery/Transactions.hpp"
 #include "Recovery/DailyActivities.hpp"
 #include "game/frontend/items/Items.hpp"
+#include "core/localization/Translator.hpp"
 
 namespace YimMenu::Submenus
 {
 	Recovery::Recovery() :
 		#define ICON_FA_SACK_DOLLAR "\xef\x93\x80"
-	    Submenu::Submenu("Recovery", ICON_FA_SACK_DOLLAR)
+	    Submenu::Submenu(TR("Recovery"), ICON_FA_SACK_DOLLAR)
 	{
-		auto main = std::make_shared<Category>("Main");
+		auto main = std::make_shared<Category>(TR("Main"));
 		auto businesses = std::make_shared<Category>("Businesses");
 		auto casino = std::make_shared<Category>("Casino");
 

@@ -8,6 +8,7 @@
 #include "game/backend/PlayerData.hpp"
 #include "game/backend/Players.hpp"
 #include "game/frontend/items/Items.hpp"
+#include "core/localization/Translator.hpp"
 
 namespace YimMenu::Submenus
 {
@@ -115,7 +116,7 @@ namespace YimMenu::Submenus
 
 	Players::Players() :
 		#define ICON_FA_USERS "\xef\x83\x80"
-	    Submenu::Submenu("Players", ICON_FA_USERS)
+	    Submenu::Submenu(TR("Players"), ICON_FA_USERS)
 	{
 		AddCategory(std::move(BuildInfoMenu()));
 		AddCategory(std::move(BuildTrollMenu()));
