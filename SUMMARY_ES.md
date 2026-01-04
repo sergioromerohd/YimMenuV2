@@ -77,11 +77,12 @@ Archivos modificados / Files modified:   5 files
 Líneas añadidas / Lines added:         373
 Líneas eliminadas / Lines deleted:      23
 
-src/core/frontend/manager/styles/Themes.cpp  | 46 cambios (23 líneas)
-TRANSLATION_NOTES.md                         | 118 líneas nuevas
-translations/es_ES.json                      | 100 líneas nuevas
-translations/en_US.json                      |  99 líneas nuevas
-translations/README.md                       |  33 líneas nuevas
+src/core/frontend/manager/styles/Themes.cpp  | 46 cambios (+23, -23 líneas)
+TRANSLATION_NOTES.md                         | +118 líneas nuevas
+translations/es_ES.json                      | +100 líneas nuevas
+translations/en_US.json                      |  +99 líneas nuevas
+translations/README.md                       |  +33 líneas nuevas
+SUMMARY_ES.md                                | +129 líneas nuevas
 ```
 
 ---
